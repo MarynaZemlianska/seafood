@@ -1,0 +1,20 @@
+# Настройки деплоя Netlify: публикуем папку с сайтом, сборка не нужна
+[build]
+  publish = "seafood_site"
+  command = ""
+
+# Кеширование статики
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
