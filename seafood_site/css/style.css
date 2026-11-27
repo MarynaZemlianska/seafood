@@ -1316,10 +1316,10 @@ select.form__input{
         z-index: 110;
     }
     .header__content{
-        margin-top: -70px;
+        margin-top: 0;
     }
     .title{
-        padding-top: 140px;
+        padding-top: 90px;
         padding-left: 60px;
     }
     .header-slider,
@@ -1623,11 +1623,11 @@ select.form__input{
         width: 76px;
     }
     .header__content{
-        margin-top: -50px;
+        margin-top: 0;
     }
     .title{
         font-size: 34px;
-        padding-top: 110px;
+        padding-top: 70px;
         margin-bottom: 30px;
     }
     .header-slider{
